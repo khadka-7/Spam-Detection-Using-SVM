@@ -1,7 +1,8 @@
 # Spam Detection Using SVM
 
-Summary of Best Classifiers by Scenario:
+##Summary of Best Classifiers by Scenario:
 |Scenario |	Best Classifiers |
+|--------|-------|
 |Binary Classification|	Logistic Regression, SVM, Random Forest|
 |Multiclass Classification|	Random Forest, SVM, Neural Networks|
 |Imbalanced Datasets|	Random Forest, XGBoost, SVM with class weights|
@@ -12,7 +13,7 @@ Summary of Best Classifiers by Scenario:
 |Text Classification|	Naive Bayes, SVM, Transformers|
 
 
-#Before Pre-processing Dataset
+##Before Pre-processing Dataset
 
 As necessary as cleaning and preprocessing operations are in preparing data for machine learning models, they must be performed carefully in relation to spam detection. Cleaning can sometimes go to the extent of removing such factors that are helpful in distinguishing samples for classification. Thus, it is advised to follow a balanced strategy where all such features are kept as potential features, but noise is excluded. Methods like feature extraction and the selection of preprocessing methods based on the nature of the dataset can greatly improve spam filter efficiency.
 
